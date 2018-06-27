@@ -24,7 +24,10 @@ public class ImageDigPrg {
 
     private void initView() {
         imagepro = dialog.findViewById(R.id.imagepro);
-        mAnimation = R.drawable.dig_pro_animation_list;
+
+        /*dig_pro_animation_list 这个仿jj彩票的进度*/
+        /*dig_pro_animation_list2 这个仿球酷彩票的进度*/
+        mAnimation = R.drawable.dig_pro_animation_list2;
         dialog.show();
         startAnimation();
         handler.postDelayed(new Runnable() {
